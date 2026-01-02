@@ -44,7 +44,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
     },
     {
       icon: "✨",
-      text: "Have a look at it, Madam Jiii",
+      text: "Dil Thaam kr baithye, Madam Jiii",
       type: "announcement",
     },
   ];
@@ -280,7 +280,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
               animationDuration: `${pos.duration}s`,
             }}
           >
-            💗
+            
           </div>
         ))}
       </div>
@@ -356,7 +356,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                   data-button="music"
                   onClick={() => handleButtonClick("music")}
                 >
-                  🎵 Play Music
+                  🎵 DJ wale babu thoda gana bhi baja do.....
                 </button>
               )}
 
@@ -367,7 +367,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                   data-button="decorate"
                   onClick={() => handleButtonClick("decorate")}
                 >
-                  🎨 Decorate
+                  🎨 Thoda decoration bhi Hojayee
                 </button>
               )}
 
@@ -378,7 +378,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                   data-button="balloons"
                   onClick={() => handleButtonClick("balloons")}
                 >
-                  🎈 Fly the Balloons
+                  🎈 Balloons Udae jaye
                 </button>
               )}
 
@@ -389,7 +389,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                   data-button="message"
                   onClick={() => handleButtonClick("message")}
                 >
-                  💌 Well, I Have a Message for You Madam Ji
+                   Dholamaruuuuu, tere liye ek message hai
                 </button>
               )}
             </div>
