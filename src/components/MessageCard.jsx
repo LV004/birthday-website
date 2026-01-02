@@ -13,19 +13,32 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `Hello Shiveee,
 
-Your personalized birthday message goes here.
+So you just turned 30 few moments back, Ab tu finally aunty wali category me aagyi hai😂
+Now some emotional time.... 
+The First time i met you was just 2.5 years back, which i can't believe kyuki aisa lgta hai
+jaise tujhe kitne barso se janta hu. The first time i saw you, i thought you will be a proper
+delhi type girl, full attitude hoga or baki sb bhi ulta ulta jo soch skta hai koi bhi ye assume krk
+ki delhi se h. Fir time ka pahiya aisa ghuma ki jo socha tha usse ekdum ulta nikla , sbse helpful, sbse pyari,
+down to earth(itni ki height hi kam reh gyi😂), or main point pdhai me husiyar , btao aisi all rounder ladki 
+kaha milegi(until aap chirag lekr dhundho).
+jab me bimar tha to samne se meri help krna bina mere bole vo baat dil ko chu gyi
+Bs dheere dheere aise hi bonding ki shuruat hui.....  fir Stranger things saath dekhna shuru(jo pta nhi kb khatam hoga😂)
+and slowly and steadily the bond grew so well that ab toh ye tode na tute😎  
+Although we had many ups and down which we wanted to avoid and remove but can't , kyuki aise hi jeevan chlta hai
+Your part in my KGP time was far above then any other person and i hope our bond stays like this for life.
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
+Tu noht pyari ladki hai, boht hard working, boht samjdaar or humesha khud se pehle family k liye sochti ..
+i really liked these qualities of you.
 
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+Bus ab isse jyada likhne gya toh hath dukhne lgega mera isliye bina words k smj ja tu kya mayne rkhte hai mere liye
+🤣🤣
 
-Happy Birthday! 🎉
 
-— [Your Name]`;
+Happy Birthday Shiveeeeeeeeeeeeeeeeeeeeeeeeeee! 🎉
+
+—LV`;
 
   // Handle page transitions
   useEffect(() => {
@@ -170,7 +183,7 @@ Happy Birthday! 🎉
 
   return (
     <section className="message">
-      <h2>💌 A Message From My Heart</h2>
+      <h2></h2>
 
       <div className="curtain-container">
         <div className="curtain-rod"></div>
